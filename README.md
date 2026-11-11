@@ -18,5 +18,10 @@
 Для сборки программы требуется компилятор с поддержкой C++20 (GCC/Clang для Linux/macOS или MSVC для Windows). Сборка обязательно должна производиться с флагом максимальной оптимизации `-O2`.
 
 ### Linux / macOS (GCC / Clang):
-```bash
+
 g++ -O2 -std=c++20 main.cpp -o matmul -lpthread
+
+### Windows
+
+cl /O2 /std:c++20 /utf-8 main.cpp
+
